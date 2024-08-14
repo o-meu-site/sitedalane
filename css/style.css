@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Color+Emoji&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Noto Color Emoji", sans-serif;
+    text-decoration: none;
+    background: #232323;
+}
+
+body {
+    margin: 10px;
+}
+
+
+.box {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 400px;
+    height: 100%;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 0px;
+    gap: 30px;
+    width: 100%;
+}
+
+
+.verificado-img {
+    position: relative;
+    left: 90px;
+    top: 140px;
+    height: 22px;
+    border-radius: 99px;
+
+}
+
+
+.elane-img {
+    height: 115px;
+    border-radius: 99%;
+    border: 5px solid #a05a9c;
+    box-shadow: -3px -3px 0px 3px white;
+    margin-left: 12px;
+}
+
+
+
+h1 {
+    font-size: 1rem;
+    color: #fec142;
+}
+
+
+
+p {
+    color: #fce4a1;
+    font-size: 1rem;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+
+.box-produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px;
+    background: #ffffff;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px#ccc4c4;
+    transition: 0.2s;
+}
+
+
+.box-produtos:hover {
+    width: 98%;
+
+}
+
+
+.links {
+    color: black;
+    background: white;
+}
+
+
+.imagens {
+    height: 60px;
+}
+
+
+#whatsapp {
+    border-radius: 100px;
+}
+
+
+
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e6dcd8;
+}
+
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .box {
+        padding: 0px 15px;
+    }
+
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+    .box {
+       padding: 0px 50px;
+    } 
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+    .box {
+        padding: 0px 100px;
+     } 
+ }
+
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+    .box {
+        padding: 0px 300px;
+     }
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+
+    .box {
+        padding: 0px 400px;
+     }
+}
